@@ -29,7 +29,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="UnicornButter/dalvik" remote="pub" revision="jb-mr1" />
+  <project path="dalvik" name="VanirAOSP/platform_dalvik" remote="pub" revision="jb42" />
   <project path="development" name="UnicornButter/development" remote="pub" revision="jb-mr1" />
   <project path="device/acer/a510" name="AOKP/device_acer_a510" remote="aokp" revision="jb-mr1" />
   <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="jb-mr1" />
