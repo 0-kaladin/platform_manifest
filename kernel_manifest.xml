@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="kernel/asus/grouper" name="kernel/tegra" remote="aosp" revision="android-tegra3-grouper-3.1-jb-mr1.1" />
-  <project path="kernel/lge/mako" name="faux123/mako" remote="aokp" revision="enhanced_stock" />
+  <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="jb-mr1" />
   <project path="kernel/samsung/manta" name="AOKP/kernel_samsung_manta" remote="aokp" revision="jb-mr1" />
 </manifest>
