@@ -180,7 +180,7 @@
   <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="UnicornButter/external_openssh" remote="pub" revision="jb-mr1" />
+  <project path="external/openssh" name="0-kaladin/android_external_openssh" remote="pub" revision="linaro" />
   <project path="external/openssl" name="UnicornButter/external_openssl" remote="pub" revision="jb-mr1" />
   <project path="external/oprofile" name="UnicornButter/external_oprofile" remote="pub" revision="jb-mr1" />
   <project path="external/ping" name="UnicornButter/external_ping" remote="pub" revision="jb-mr1" />
