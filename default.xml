@@ -44,6 +44,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="jb-mr1" />
+  <project path="device/motorola/omap4-common" name="AOKP/device_motorola_omap4-common" remote="aokp" revision="jb-mr1" />
   <project path="device/motorola/spyder" name="AOKP/device_motorola_spyder" remote="aokp" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="AOKP/device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
@@ -80,7 +81,7 @@
   <project path="external/bluetooth/bluedroid" name="0-kaladin/external_bluetooth_bluedroid" remote="pub" revision="jb-mr1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="UnicornButter/external_busybox" remote="pub" revision="jb-mr1" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.1" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="UnicornButter/external_chromium" remote="pub" revision="jb-mr1" />
