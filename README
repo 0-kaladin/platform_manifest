@@ -1,4 +1,4 @@
 $ repo init -u https://github.com/0-kaladin/platform_manifest.git -b jb-mr1
 $ repo sync
-$ cd platform_manifest
-$ ./pick.sh
+$ lunch 
+$ make bacon
