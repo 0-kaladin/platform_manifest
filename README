@@ -1,4 +1,5 @@
 $ repo init -u https://github.com/0-kaladin/platform_manifest.git -b jb-mr1
 $ repo sync
+$ . build/envsetup.sh
 $ lunch 
 $ make bacon
