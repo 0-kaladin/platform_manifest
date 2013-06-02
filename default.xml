@@ -12,6 +12,9 @@
   <remote  name="pub"
            fetch="https://github.com/" />
 
+<remote  name="cfx"
+           fetch="https://bitbucket.org/codefirex/" />
+
   <remote  name="cm"
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
