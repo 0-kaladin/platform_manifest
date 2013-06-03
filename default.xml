@@ -14,6 +14,9 @@
 
   <remote  name="cfx"
            fetch="https://bitbucket.org/codefirex/" />
+ 
+  <remote  name="pbeeler"
+           fetch="https://github.com/pbeeler/" />
 
   <remote  name="sm"
            fetch="https://github.com/SaberMod/" />
@@ -179,7 +182,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="platform/external/llvm" />
+  <project path="external/llvm" name="android_external_llvm" remote="pbeeler" revision="sm-jb-mr1" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
   <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
