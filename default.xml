@@ -21,6 +21,9 @@
   <remote  name="sm"
            fetch="https://github.com/SaberMod/" />
 
+  <remote  name="vanir"
+           fetch="https://github.com/VanirAOSP/" />
+
   <remote  name="cm"
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
@@ -268,7 +271,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="sm" revision="sm-jb-mr1" />
+  <project path="frameworks/rs" name="platform_frameworks_rs" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="sm" revision="sm-jb-mr1" />
