@@ -49,7 +49,7 @@
   <project path="dalvik" name="0-kaladin/platform_dalvik" remote="pub" revision="linaro" />
   <project path="development" name="0-kaladin/development" remote="pub" revision="jb-mr1" />
   <project path="device/acer/a510" name="AOKP/device_acer_a510" remote="aokp" revision="jb-mr1" />
-  <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="jb-mr1" />
+  <project path="device/asus/grouper" name="0-kaladin/device_asus_grouper" remote="pub" revision="jb-mr1" />
   <project path="device/asus/tilapia" name="0-kaladin/device_asus_tilapia" remote="pub" revision="jb-mr1" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
