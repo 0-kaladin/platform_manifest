@@ -22,7 +22,8 @@
            fetch="https://github.com/SaberMod/" />
 
   <remote  name="vanir"
-           fetch="https://github.com/VanirAOSP/" />
+           fetch="https://github.com/VanirAOSP/" 
+           review="vaniraosp.goo.im" />
 
   <remote  name="cm"
            fetch="https://github.com/"
