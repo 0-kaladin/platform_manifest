@@ -41,7 +41,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project name="0-kaladin/android_bionic" path="bionic" remote="pub" revision="cm-10.1-linaro" />
+  <project path="bionic" name="platform_bionic" remote="vanir" revision="jb42" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
