@@ -9,11 +9,21 @@
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
+  <remote  name="cm"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com" />
+
+  <remote  name="cmdev"
+           fetch="git://github.com/loosethisskin/" />
+
   <remote  name="pub"
            fetch="https://github.com/" />
 
   <remote  name="cfx"
            fetch="https://bitbucket.org/codefirex/" />
+
+  <remote  name="lqs"
+           fetch="git://github.com/LiquidSmooth/" />
  
   <remote  name="pbeeler"
            fetch="https://github.com/pbeeler/" />
@@ -25,28 +35,24 @@
            fetch="https://github.com/VanirAOSP/" 
            review="vaniraosp.goo.im" />
 
-  <remote  name="cm"
-           fetch="https://github.com/"
-           review="review.cyanogenmod.com" />
-
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
 
   <project path="build" name="0-kaladin/build" remote="pub" revision="linaro" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="0-kaladin/android_bionic" remote="pub" revision="cm-10.1-linaro" />
+  <project path="bionic" name="android_bionic" remote="lqs" revision="jb2" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="0-kaladin/platform_dalvik" remote="pub" revision="linaro" />
+  <project path="dalvik" name="android_dalvik" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="development" name="0-kaladin/development" remote="pub" revision="jb-mr1" />
   <project path="device/acer/a510" name="AOKP/device_acer_a510" remote="aokp" revision="jb-mr1" />
   <project path="device/asus/grouper" name="0-kaladin/device_asus_grouper" remote="pub" revision="jb-mr1" />
