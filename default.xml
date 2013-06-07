@@ -47,12 +47,12 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="0-kaladin/android_bionic" remote="pub" revision="cm-10.1-linaro" />
+  <project path="bionic" name="android_bionic" remote="lqs" revision="jb2" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="android_dalvik" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="dalvik" name="0-kaladin/platform_dalvik" remote="pub" revision="linaro" />
   <project path="development" name="0-kaladin/development" remote="pub" revision="jb-mr1" />
   <project path="device/acer/a510" name="AOKP/device_acer_a510" remote="aokp" revision="jb-mr1" />
   <project path="device/asus/grouper" name="0-kaladin/device_asus_grouper" remote="pub" revision="jb-mr1" />
