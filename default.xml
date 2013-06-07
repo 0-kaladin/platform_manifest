@@ -214,7 +214,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="0-kaladin/android_external_openssh" remote="pub" revision="linaro" />
   <project path="external/openssl" name="0-kaladin/platform_external_openssl" remote="pub" revision="linaro" />
-  <project path="external/oprofile" name="android_external_oprofile" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="external/oprofile" name="0-kaladin/external_oprofile" remote="pub" revision="linaro" />
   <project path="external/ping" name="UnicornButter/external_ping" remote="pub" revision="jb-mr1" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
