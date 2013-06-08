@@ -116,7 +116,7 @@
   <project path="external/chromium" name="android_external_chromium" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="external_clang" remote="vanir" revision="jb42" />
+  <project path="external/clang" name="0-kaladin/external_clang" remote="pub" revision="linaro" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
