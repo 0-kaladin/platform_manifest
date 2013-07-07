@@ -73,7 +73,7 @@
   <project path="device/motorola/omap4-common" name="AOKP/device_motorola_omap4-common" remote="aokp" revision="jb-mr1" />
   <project path="device/motorola/spyder" name="0-kaladin/device_motorola_spyder" remote="pub" revision="linaro" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/d2-common" name="AOKP/device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/d2-common" name="0-kaladin/device_samsung_d2-common" remote="pub" revision="linaro" />
   <project path="device/samsung/d2att" name="AOKP/device_samsung_d2att" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2usc" name="AOKP/device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
