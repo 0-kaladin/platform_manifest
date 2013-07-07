@@ -70,7 +70,7 @@
   <project path="device/htc/msm8960-common" name="AOKP/device_htc_msm8960-common" remote="aokp" revision="jb-mr1" />
   <project path="device/htc/s4-common" name="AOKP/device_htc_s4-common" remote="aokp" revision="jb-mr1" />
   <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="jb-mr1" />
-  <project path="device/motorola/omap4-common" name="AOKP/device_motorola_omap4-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/motorola/omap4-common" name="0-kaladin/device_motorola_omap4-common" remote="pub" revision="linaro" />
   <project path="device/motorola/spyder" name="0-kaladin/device_motorola_spyder" remote="pub" revision="linaro" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="0-kaladin/device_samsung_d2-common" remote="pub" revision="linaro" />
@@ -297,7 +297,7 @@
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="cfx" revision="jb-devel" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="0-kaladin/android_hardware_qcom_media" remote="pub" revision="linaro" />
-  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="lqs" revision="jb2" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
