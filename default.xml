@@ -297,7 +297,7 @@
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="cfx" revision="jb-devel" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="0-kaladin/android_hardware_qcom_media" remote="pub" revision="linaro" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="vanir" revision="jb42" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="lqs" revision="jb2" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
