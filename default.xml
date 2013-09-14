@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com/"
+          review="https://android-review.googlesource.com/" />
 
-  <remote  name="aokp"
-           fetch="https://github.com/"
-           review="gerrit.aokp.co" />
+  <remote name="aokp"
+          fetch="https://github.com/"
+          review="gerrit.aokp.co" />
 
-  <remote  name="cm"
-           fetch="https://github.com/"
-           review="review.cyanogenmod.com" />
+  <remote name="cm"
+          fetch="https://github.com/"
+          review="review.cyanogenmod.com" />
 
-  <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/"
-           review="http://review.omapzoom.org/" />
+  <remote name="omapzoom"
+          fetch="git://git.omapzoom.org/"
+          review="http://review.omapzoom.org/" />
+
+  <remote name="cmdev"
+          fetch="git://github.com/loosethisskin/" />
+
+  <remote name="vanir"
+          fetch="https://github.com/VanirAOSP/"
+          review="emccann.net:8080" />
+
+  <remote name="kaladin"
+          fetch="git://github.com/0-kaladin/" />
 
   <default revision="refs/tags/android-4.3_r2.2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
 
-  <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr2" groups="pdk">
+  <project path="build" name="build" remote="kaladin" revision="linaro2" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
