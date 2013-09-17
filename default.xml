@@ -254,7 +254,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
+  <project path="external/openssl" name="platform_external_openssl" remote="kaladin" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" revision="cm-10.2" />
   <project path="external/ping" name="platform/external/ping" />
