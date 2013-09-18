@@ -518,5 +518,5 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr2" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr2" />
+  <project path="platform_manifest" name="platform_manifest" remote="kaladin" revision="linaro2" />
 </manifest>
