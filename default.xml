@@ -258,8 +258,8 @@
   <project path="external/openssl" name="platform_external_openssl" remote="kaladin" revision="linaro2" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" revision="cm-10.2" />
-  <project path="external/ping" name="platform/external/ping" />
-  <project path="external/ping6" name="platform/external/ping6" />
+  <project path="external/ping" name="platform_external_ping" remote="vanir" revision="jb43" />
+  <project path="external/ping6" name="platform_external_ping6" remote="vanir" revision="jb43" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
