@@ -377,7 +377,7 @@
   <project path="kernel/samsung/tuna" name="kernel/omap" remote="aosp" revision="android-omap-tuna-3.0-jb-mr2" groups="notdefault,kernel,toro,toroplus,maguro" />
   <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" remote="cm" revision="cm-10.2" groups="notdefault,kernel,odin,yuga,pollux" />
   <project path="kernel/sony/msm8x60" name="AOKP/kernel_sony_msm8x60" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,mint,tsubasa" />
-  <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-10.2" />
+  <project path="libcore" name="platform_libcore" remote="vanir" revision="jb43" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
