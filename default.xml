@@ -27,6 +27,9 @@
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
 
+  <remote name="christopher83"
+          fetch="https://github.com/Christopher83/" />
+
   <remote name="kaladin"
           fetch="git://github.com/0-kaladin/" />
 
