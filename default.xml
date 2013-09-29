@@ -46,7 +46,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" />
   <project path="cts" name="platform/cts" groups="cts"/>
-  <project path="dalvik" name="dalvik" remote="kaladin" revision="linaro2" />
+  <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -233,8 +233,8 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="external_llvm" remote="vanir" revision="jb43" groups="pdk" />
-  <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="jb-mr2" />
-  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="jb-mr2" />
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-10.2" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-10.2" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
