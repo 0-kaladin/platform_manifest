@@ -17,18 +17,12 @@
           fetch="git://git.omapzoom.org/"
           review="http://review.omapzoom.org/" />
 
-  <remote name="cmdev"
-          fetch="git://github.com/loosethisskin/" />
-
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/"
           review="emccann.net:8080" />
 
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
-
-  <remote name="lqs"
-          fetch="https://github.com/LiquidSmooth/" />
 
   <remote name="kaladin"
           fetch="git://github.com/0-kaladin/" />
@@ -348,7 +342,7 @@
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="vanir" revision="jb43" groups="caf" />
   <project path="hardware/qcom/keymaster" name="AOKP/hardware_qcom_keymaster" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="aokp" revision="jb-mr2" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="AOKP/hardware_qcom_media-caf" remote="aokp" revision="jb-mr2" groups="caf" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="vanir" revision="jb43" groups="caf" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr2" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
