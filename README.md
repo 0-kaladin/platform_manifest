@@ -29,3 +29,20 @@ for example, to init trees needed to build mako and grouper :
 sync repo :
 
     $ repo sync
+
+BUTTERED REPOSITORY
+===================
+
+Same method as above just adjust the URL and branch :
+
+    $ repo init -u https://github.com/0-kaladin/platform_manifest.git -b linaro2 -g all,-notdefault,whatever,whatever
+
+
+Confirmed devices that have been built from this repository
+-----------------------------------------------------------
+
+* Manta (Nexus 10)
+* Grouper (Nexus 7)
+* Tilapia (Nexus 7)
+* Flo (Nexus 7, 2013)
+
