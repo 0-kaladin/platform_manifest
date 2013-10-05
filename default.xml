@@ -19,7 +19,7 @@
 
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/"
-          review="emccann.net:8080" />
+          review="vaniraosp.goo.im" />
 
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
@@ -439,7 +439,7 @@
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="kaladin" revision="linaro2" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
@@ -486,7 +486,7 @@
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
+  <project path="system/security" name="platform_system_security" remote="vanir" revision="jb43" groups="pdk" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr2" groups="pdk" />
 <!--
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
