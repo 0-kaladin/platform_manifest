@@ -27,7 +27,7 @@
   <remote name="kaladin"
           fetch="git://github.com/0-kaladin/" />
 
-  <default revision="refs/tags/android-4.3_r3.1"
+  <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-j="8" />
 
