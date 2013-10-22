@@ -341,7 +341,7 @@
   <project path="hardware/qcom/display" name="AOKP/hardware_qcom_display" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="vanir" revision="jb43" groups="caf" />
   <project path="hardware/qcom/keymaster" name="AOKP/hardware_qcom_keymaster" remote="aokp" revision="jb-mr2" groups="qcom" />
-  <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="aokp" revision="jb-mr2" groups="qcom" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="jb43" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="vanir" revision="jb43" groups="caf" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr2" />
