@@ -47,6 +47,7 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/acer/a510" name="AOKP/device_acer_a510" remote="aokp" revision="jb-mr2" groups="notdefault,device,a510" />
+  <project path="device/acer/t30-common" name="AOKP/device_acer_t30-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,a510" />
   <project path="device/asus/flo" name="device_asus_flo" remote="kaladin" revision="linaro2" groups="notdefault,device,flo" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="kaladin" revision="linaro-test" groups="notdefault,device,grouper" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="kaladin" revision="linaro2" groups="notdefault,device,tilapia" />
@@ -356,6 +357,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.2" />
+  <project path="kernel/acer/t30" name="AOKP/kernel_acer_t30" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,acer" />
   <project path="kernel/asus/flo" name="kernel_asus_flo" remote="kaladin" revision="linaro2" groups="notdefault,kernel,flo" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="kaladin" revision="linaro2" groups="notdefault,kernel,grouper" />
   <project path="kernel/asus/tf101" name="AOKP/kernel_asus_tf101" remote="aokp" revision="jb" groups="notdefault,kernel,tf101" />
@@ -417,7 +419,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Stk" name="AOKP/packages_apps_Stk" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="AOKP/packages_apps_Torch" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
