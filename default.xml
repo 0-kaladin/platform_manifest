@@ -82,8 +82,8 @@
   <project path="device/motorola/spyder" name="AOKP/device_motorola_spyder" remote="aokp" revision="jb-mr2" groups="notdefault,device,spyder" />
   <project path="device/motorola/targa" name="AOKP/device_motorola_targa" remote="aokp" revision="jb-mr2" groups="notdefault,device,targa" />
   <project path="device/motorola/umts_spyder" name="AOKP/device_motorola_umts_spyder" remote="aokp" revision="jb-mr2" groups="notdefault,device,spyder" />
-  <project path="device/motorola/xt1053" name="AOKP/device_motorola_xt1053" remote="aokp" revision="jb-mr2" groups="notdefault,device,ghost,xt1053" >
-  <project path="device/motorola/xt1060" name="AOKP/device_motorola_xt1060" remote="aokp" revision="jb-mr2" groups="notdefault,device,ghost,xt1060" >
+  <project path="device/motorola/xt1053" name="AOKP/device_motorola_xt1053" remote="aokp" revision="jb-mr2" groups="notdefault,device,ghost,xt1053" />
+  <project path="device/motorola/xt1060" name="AOKP/device_motorola_xt1060" remote="aokp" revision="jb-mr2" groups="notdefault,device,ghost,xt1060" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/aries-common" name="AOKP/device_samsung_aries-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,vibrantmtd" />
   <project path="device/samsung/celox-common" name="AOKP/device_samsung_celox-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,hercules" />
